@@ -14,6 +14,7 @@ class StartModdingViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print(ApplicationStuff.Paths)
     }
 
     override var representedObject: Any? {

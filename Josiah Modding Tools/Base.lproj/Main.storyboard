@@ -710,7 +710,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eQn-6D-wq2">
+                            <textField identifier="PathAdded" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eQn-6D-wq2">
                                 <rect key="frame" x="0.0" y="111" width="480" height="21"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="rIe-4j-VfO">
                                     <font key="font" usesAppearanceFont="YES"/>
@@ -756,6 +756,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="PathAdd" destination="rIe-4j-VfO" id="f0H-Hq-Abh"/>
+                        <outlet property="PathAdded" destination="eQn-6D-wq2" id="4hd-hr-p4D"/>
                         <segue destination="XNS-j6-s6c" kind="show" identifier="SegueSMOD" id="Iz6-qO-iQB"/>
                     </connections>
                 </viewController>

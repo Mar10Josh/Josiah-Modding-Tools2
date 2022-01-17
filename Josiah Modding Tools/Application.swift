@@ -8,6 +8,6 @@
 import Foundation
 import Cocoa
 
-class ApplicationStuff {
-    let Path = ""
+struct ApplicationStuff {
+    static var Paths: String = ""
 }
