@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11134" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11134"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -673,7 +675,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Josiah_Modding_Tools" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -700,18 +702,84 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="HomeViewController" customModule="Josiah_Modding_Tools" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="eQn-6D-wq2">
+                                <rect key="frame" x="0.0" y="111" width="480" height="21"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="rIe-4j-VfO">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <imageView translatesAutoresizingMaskIntoConstraints="NO" id="dlp-2P-eXP">
+                                <rect key="frame" x="13" y="158" width="32" height="32"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="NSFolder" id="8kE-vz-56i"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="bQE-2K-4xB">
+                                <rect key="frame" x="89" y="166" width="287" height="16"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Select the folder that has Kade Engine for FNF." id="Pug-gm-1lg">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pCq-0v-pXw">
+                                <rect key="frame" x="228" y="35" width="182" height="32"/>
+                                <buttonCell key="cell" type="push" title="Mod this Kade Engine" alternateTitle="Kade Engine Accquired. NOW GO!" bezelStyle="rounded" image="NSMenuOnStateTemplate" imagePosition="left" alignment="center" alternateImage="NSGoRightTemplate" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="PLD-Zl-mJJ">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="NViewButtonP:" target="XfG-lQ-9wD" id="9v2-Ga-8AJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="eQn-6D-wq2" firstAttribute="top" secondItem="bQE-2K-4xB" secondAttribute="bottom" constant="34" id="2Tu-J2-PbD"/>
+                            <constraint firstItem="bQE-2K-4xB" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="88" id="4rP-XX-55K"/>
+                            <constraint firstAttribute="trailing" secondItem="pCq-0v-pXw" secondAttribute="trailing" constant="77" id="93Q-w6-X8i"/>
+                            <constraint firstItem="pCq-0v-pXw" firstAttribute="top" secondItem="eQn-6D-wq2" secondAttribute="bottom" constant="49" id="9eA-ar-uQu"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bQE-2K-4xB" secondAttribute="trailing" constant="20" symbolic="YES" id="H78-K6-gwG"/>
+                            <constraint firstItem="bQE-2K-4xB" firstAttribute="leading" secondItem="dlp-2P-eXP" secondAttribute="trailing" constant="46" id="JHB-tf-N9g"/>
+                            <constraint firstItem="bQE-2K-4xB" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="91" id="Ll4-r6-U0Q"/>
+                            <constraint firstItem="bQE-2K-4xB" firstAttribute="centerY" secondItem="dlp-2P-eXP" secondAttribute="centerY" id="V5f-Kn-rq0"/>
+                            <constraint firstItem="pCq-0v-pXw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" symbolic="YES" id="go4-Ic-Hbr"/>
+                            <constraint firstItem="eQn-6D-wq2" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="yL2-H6-q3D"/>
+                            <constraint firstAttribute="trailing" secondItem="eQn-6D-wq2" secondAttribute="trailing" id="zQi-bw-BhN"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <segue destination="XNS-j6-s6c" kind="show" identifier="SegueSMOD" id="Iz6-qO-iQB"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
         </scene>
+        <!--Start Modding View Controller-->
+        <scene sceneID="2QC-ij-NKf">
+            <objects>
+                <viewController id="XNS-j6-s6c" customClass="StartModdingViewController" customModule="Josiah_Modding_Tools" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="V3A-HI-kw0">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="VsD-SZ-uMc" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="615" y="655"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="NSFolder" width="32" height="32"/>
+        <image name="NSGoRightTemplate" width="10" height="14"/>
+        <image name="NSMenuOnStateTemplate" width="14" height="13"/>
+    </resources>
 </document>
