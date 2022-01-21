@@ -16,6 +16,24 @@
 		8A69E3D52795F25C00141808 /* Josiah_Modding_ToolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E3D42795F25C00141808 /* Josiah_Modding_ToolsUITestsLaunchTests.swift */; };
 		8A69E3E22795FB1A00141808 /* SModViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E3E12795FB1A00141808 /* SModViewController.swift */; };
 		8A69E3E42796007600141808 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E3E32796007600141808 /* Application.swift */; };
+		8A69E3F127977B3C00141808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E3F027977B3C00141808 /* AppDelegate.swift */; };
+		8A69E3F327977B3C00141808 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E3F227977B3C00141808 /* SceneDelegate.swift */; };
+		8A69E3F527977B3C00141808 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E3F427977B3C00141808 /* ViewController.swift */; };
+		8A69E3F827977B3C00141808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A69E3F627977B3C00141808 /* Main.storyboard */; };
+		8A69E3FA27977B3E00141808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A69E3F927977B3E00141808 /* Assets.xcassets */; };
+		8A69E3FD27977B3E00141808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A69E3FB27977B3E00141808 /* LaunchScreen.storyboard */; };
+		8A69E40827977B3E00141808 /* Remote_Josiah_ModderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E40727977B3E00141808 /* Remote_Josiah_ModderTests.swift */; };
+		8A69E41227977B3E00141808 /* Remote_Josiah_ModderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E41127977B3E00141808 /* Remote_Josiah_ModderUITests.swift */; };
+		8A69E41427977B3E00141808 /* Remote_Josiah_ModderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E41327977B3E00141808 /* Remote_Josiah_ModderUITestsLaunchTests.swift */; };
+		8A69E4E02798E5FC00141808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E4DF2798E5FC00141808 /* AppDelegate.swift */; };
+		8A69E4E22798E5FC00141808 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E4E12798E5FC00141808 /* SceneDelegate.swift */; };
+		8A69E4E42798E5FC00141808 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E4E32798E5FC00141808 /* ViewController.swift */; };
+		8A69E4E72798E5FC00141808 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A69E4E52798E5FC00141808 /* Main.storyboard */; };
+		8A69E4E92798E5FE00141808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A69E4E82798E5FE00141808 /* Assets.xcassets */; };
+		8A69E4EC2798E5FE00141808 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A69E4EA2798E5FE00141808 /* LaunchScreen.storyboard */; };
+		8A69E4F72798E5FE00141808 /* OptiModTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E4F62798E5FE00141808 /* OptiModTests.swift */; };
+		8A69E5012798E5FE00141808 /* OptiModUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E5002798E5FE00141808 /* OptiModUITests.swift */; };
+		8A69E5032798E5FE00141808 /* OptiModUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E5022798E5FE00141808 /* OptiModUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +51,34 @@
 			remoteGlobalIDString = 8A69E3B22795F25900141808;
 			remoteInfo = "Josiah Modding Tools";
 		};
+		8A69E40427977B3E00141808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A69E3ED27977B3C00141808;
+			remoteInfo = "Remote Josiah Modder";
+		};
+		8A69E40E27977B3E00141808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A69E3ED27977B3C00141808;
+			remoteInfo = "Remote Josiah Modder";
+		};
+		8A69E4F32798E5FE00141808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A69E4DC2798E5FC00141808;
+			remoteInfo = OptiMod;
+		};
+		8A69E4FD2798E5FE00141808 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A69E4DC2798E5FC00141808;
+			remoteInfo = OptiMod;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +95,34 @@
 		8A69E3D42795F25C00141808 /* Josiah_Modding_ToolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Josiah_Modding_ToolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8A69E3E12795FB1A00141808 /* SModViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SModViewController.swift; sourceTree = "<group>"; };
 		8A69E3E32796007600141808 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		8A69E3EE27977B3C00141808 /* Remote Josiah Modder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remote Josiah Modder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A69E3F027977B3C00141808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A69E3F227977B3C00141808 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A69E3F427977B3C00141808 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A69E3F727977B3C00141808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A69E3F927977B3E00141808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A69E3FC27977B3E00141808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A69E3FE27977B3E00141808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A69E40327977B3E00141808 /* Remote Josiah ModderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remote Josiah ModderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A69E40727977B3E00141808 /* Remote_Josiah_ModderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote_Josiah_ModderTests.swift; sourceTree = "<group>"; };
+		8A69E40D27977B3E00141808 /* Remote Josiah ModderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remote Josiah ModderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A69E41127977B3E00141808 /* Remote_Josiah_ModderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote_Josiah_ModderUITests.swift; sourceTree = "<group>"; };
+		8A69E41327977B3E00141808 /* Remote_Josiah_ModderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote_Josiah_ModderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A69E4D82798E40600141808 /* Remote Josiah Modder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Remote Josiah Modder.entitlements"; sourceTree = "<group>"; };
+		8A69E4DD2798E5FC00141808 /* OptiMod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptiMod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A69E4DF2798E5FC00141808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A69E4E12798E5FC00141808 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A69E4E32798E5FC00141808 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A69E4E62798E5FC00141808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A69E4E82798E5FE00141808 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A69E4EB2798E5FE00141808 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A69E4ED2798E5FE00141808 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A69E4F22798E5FE00141808 /* OptiModTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptiModTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A69E4F62798E5FE00141808 /* OptiModTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiModTests.swift; sourceTree = "<group>"; };
+		8A69E4FC2798E5FE00141808 /* OptiModUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OptiModUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A69E5002798E5FE00141808 /* OptiModUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiModUITests.swift; sourceTree = "<group>"; };
+		8A69E5022798E5FE00141808 /* OptiModUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptiModUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A69E50D2798E87300141808 /* OptiMod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OptiMod.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +147,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A69E3EB27977B3C00141808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E40027977B3E00141808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E40A27977B3E00141808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E4DA2798E5FC00141808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E4EF2798E5FE00141808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E4F92798E5FE00141808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +198,12 @@
 				8A69E3B52795F25A00141808 /* Josiah Modding Tools */,
 				8A69E3C72795F25B00141808 /* Josiah Modding ToolsTests */,
 				8A69E3D12795F25B00141808 /* Josiah Modding ToolsUITests */,
+				8A69E3EF27977B3C00141808 /* Remote Josiah Modder */,
+				8A69E40627977B3E00141808 /* Remote Josiah ModderTests */,
+				8A69E41027977B3E00141808 /* Remote Josiah ModderUITests */,
+				8A69E4DE2798E5FC00141808 /* OptiMod */,
+				8A69E4F52798E5FE00141808 /* OptiModTests */,
+				8A69E4FF2798E5FE00141808 /* OptiModUITests */,
 				8A69E3B42795F25900141808 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +214,12 @@
 				8A69E3B32795F25900141808 /* Josiah Modding Tools.app */,
 				8A69E3C42795F25B00141808 /* Josiah Modding ToolsTests.xctest */,
 				8A69E3CE2795F25B00141808 /* Josiah Modding ToolsUITests.xctest */,
+				8A69E3EE27977B3C00141808 /* Remote Josiah Modder.app */,
+				8A69E40327977B3E00141808 /* Remote Josiah ModderTests.xctest */,
+				8A69E40D27977B3E00141808 /* Remote Josiah ModderUITests.xctest */,
+				8A69E4DD2798E5FC00141808 /* OptiMod.app */,
+				8A69E4F22798E5FE00141808 /* OptiModTests.xctest */,
+				8A69E4FC2798E5FE00141808 /* OptiModUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +253,70 @@
 				8A69E3D42795F25C00141808 /* Josiah_Modding_ToolsUITestsLaunchTests.swift */,
 			);
 			path = "Josiah Modding ToolsUITests";
+			sourceTree = "<group>";
+		};
+		8A69E3EF27977B3C00141808 /* Remote Josiah Modder */ = {
+			isa = PBXGroup;
+			children = (
+				8A69E4D82798E40600141808 /* Remote Josiah Modder.entitlements */,
+				8A69E3F027977B3C00141808 /* AppDelegate.swift */,
+				8A69E3F227977B3C00141808 /* SceneDelegate.swift */,
+				8A69E3F427977B3C00141808 /* ViewController.swift */,
+				8A69E3F627977B3C00141808 /* Main.storyboard */,
+				8A69E3F927977B3E00141808 /* Assets.xcassets */,
+				8A69E3FB27977B3E00141808 /* LaunchScreen.storyboard */,
+				8A69E3FE27977B3E00141808 /* Info.plist */,
+			);
+			path = "Remote Josiah Modder";
+			sourceTree = "<group>";
+		};
+		8A69E40627977B3E00141808 /* Remote Josiah ModderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A69E40727977B3E00141808 /* Remote_Josiah_ModderTests.swift */,
+			);
+			path = "Remote Josiah ModderTests";
+			sourceTree = "<group>";
+		};
+		8A69E41027977B3E00141808 /* Remote Josiah ModderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A69E41127977B3E00141808 /* Remote_Josiah_ModderUITests.swift */,
+				8A69E41327977B3E00141808 /* Remote_Josiah_ModderUITestsLaunchTests.swift */,
+			);
+			path = "Remote Josiah ModderUITests";
+			sourceTree = "<group>";
+		};
+		8A69E4DE2798E5FC00141808 /* OptiMod */ = {
+			isa = PBXGroup;
+			children = (
+				8A69E50D2798E87300141808 /* OptiMod.entitlements */,
+				8A69E4DF2798E5FC00141808 /* AppDelegate.swift */,
+				8A69E4E12798E5FC00141808 /* SceneDelegate.swift */,
+				8A69E4E32798E5FC00141808 /* ViewController.swift */,
+				8A69E4E52798E5FC00141808 /* Main.storyboard */,
+				8A69E4E82798E5FE00141808 /* Assets.xcassets */,
+				8A69E4EA2798E5FE00141808 /* LaunchScreen.storyboard */,
+				8A69E4ED2798E5FE00141808 /* Info.plist */,
+			);
+			path = OptiMod;
+			sourceTree = "<group>";
+		};
+		8A69E4F52798E5FE00141808 /* OptiModTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A69E4F62798E5FE00141808 /* OptiModTests.swift */,
+			);
+			path = OptiModTests;
+			sourceTree = "<group>";
+		};
+		8A69E4FF2798E5FE00141808 /* OptiModUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A69E5002798E5FE00141808 /* OptiModUITests.swift */,
+				8A69E5022798E5FE00141808 /* OptiModUITestsLaunchTests.swift */,
+			);
+			path = OptiModUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +375,112 @@
 			productReference = 8A69E3CE2795F25B00141808 /* Josiah Modding ToolsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		8A69E3ED27977B3C00141808 /* Remote Josiah Modder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A69E41B27977B3E00141808 /* Build configuration list for PBXNativeTarget "Remote Josiah Modder" */;
+			buildPhases = (
+				8A69E3EA27977B3C00141808 /* Sources */,
+				8A69E3EB27977B3C00141808 /* Frameworks */,
+				8A69E3EC27977B3C00141808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remote Josiah Modder";
+			productName = "Remote Josiah Modder";
+			productReference = 8A69E3EE27977B3C00141808 /* Remote Josiah Modder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A69E40227977B3E00141808 /* Remote Josiah ModderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A69E41C27977B3E00141808 /* Build configuration list for PBXNativeTarget "Remote Josiah ModderTests" */;
+			buildPhases = (
+				8A69E3FF27977B3E00141808 /* Sources */,
+				8A69E40027977B3E00141808 /* Frameworks */,
+				8A69E40127977B3E00141808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A69E40527977B3E00141808 /* PBXTargetDependency */,
+			);
+			name = "Remote Josiah ModderTests";
+			productName = "Remote Josiah ModderTests";
+			productReference = 8A69E40327977B3E00141808 /* Remote Josiah ModderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A69E40C27977B3E00141808 /* Remote Josiah ModderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A69E41D27977B3E00141808 /* Build configuration list for PBXNativeTarget "Remote Josiah ModderUITests" */;
+			buildPhases = (
+				8A69E40927977B3E00141808 /* Sources */,
+				8A69E40A27977B3E00141808 /* Frameworks */,
+				8A69E40B27977B3E00141808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A69E40F27977B3E00141808 /* PBXTargetDependency */,
+			);
+			name = "Remote Josiah ModderUITests";
+			productName = "Remote Josiah ModderUITests";
+			productReference = 8A69E40D27977B3E00141808 /* Remote Josiah ModderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8A69E4DC2798E5FC00141808 /* OptiMod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A69E5042798E5FE00141808 /* Build configuration list for PBXNativeTarget "OptiMod" */;
+			buildPhases = (
+				8A69E4D92798E5FC00141808 /* Sources */,
+				8A69E4DA2798E5FC00141808 /* Frameworks */,
+				8A69E4DB2798E5FC00141808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptiMod;
+			productName = OptiMod;
+			productReference = 8A69E4DD2798E5FC00141808 /* OptiMod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A69E4F12798E5FE00141808 /* OptiModTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A69E5072798E5FE00141808 /* Build configuration list for PBXNativeTarget "OptiModTests" */;
+			buildPhases = (
+				8A69E4EE2798E5FE00141808 /* Sources */,
+				8A69E4EF2798E5FE00141808 /* Frameworks */,
+				8A69E4F02798E5FE00141808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A69E4F42798E5FE00141808 /* PBXTargetDependency */,
+			);
+			name = OptiModTests;
+			productName = OptiModTests;
+			productReference = 8A69E4F22798E5FE00141808 /* OptiModTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A69E4FB2798E5FE00141808 /* OptiModUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A69E50A2798E5FE00141808 /* Build configuration list for PBXNativeTarget "OptiModUITests" */;
+			buildPhases = (
+				8A69E4F82798E5FE00141808 /* Sources */,
+				8A69E4F92798E5FE00141808 /* Frameworks */,
+				8A69E4FA2798E5FE00141808 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A69E4FE2798E5FE00141808 /* PBXTargetDependency */,
+			);
+			name = OptiModUITests;
+			productName = OptiModUITests;
+			productReference = 8A69E4FC2798E5FE00141808 /* OptiModUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +502,28 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 8A69E3B22795F25900141808;
 					};
+					8A69E3ED27977B3C00141808 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8A69E40227977B3E00141808 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8A69E3ED27977B3C00141808;
+					};
+					8A69E40C27977B3E00141808 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8A69E3ED27977B3C00141808;
+					};
+					8A69E4DC2798E5FC00141808 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8A69E4F12798E5FE00141808 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8A69E4DC2798E5FC00141808;
+					};
+					8A69E4FB2798E5FE00141808 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 8A69E4DC2798E5FC00141808;
+					};
 				};
 			};
 			buildConfigurationList = 8A69E3AE2795F25900141808 /* Build configuration list for PBXProject "Josiah Modding Tools" */;
@@ -222,6 +542,12 @@
 				8A69E3B22795F25900141808 /* Josiah Modding Tools */,
 				8A69E3C32795F25B00141808 /* Josiah Modding ToolsTests */,
 				8A69E3CD2795F25B00141808 /* Josiah Modding ToolsUITests */,
+				8A69E3ED27977B3C00141808 /* Remote Josiah Modder */,
+				8A69E40227977B3E00141808 /* Remote Josiah ModderTests */,
+				8A69E40C27977B3E00141808 /* Remote Josiah ModderUITests */,
+				8A69E4DC2798E5FC00141808 /* OptiMod */,
+				8A69E4F12798E5FE00141808 /* OptiModTests */,
+				8A69E4FB2798E5FE00141808 /* OptiModUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -244,6 +570,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8A69E3CC2795F25B00141808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E3EC27977B3C00141808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A69E3FD27977B3E00141808 /* LaunchScreen.storyboard in Resources */,
+				8A69E3FA27977B3E00141808 /* Assets.xcassets in Resources */,
+				8A69E3F827977B3C00141808 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E40127977B3E00141808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E40B27977B3E00141808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E4DB2798E5FC00141808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A69E4EC2798E5FE00141808 /* LaunchScreen.storyboard in Resources */,
+				8A69E4E92798E5FE00141808 /* Assets.xcassets in Resources */,
+				8A69E4E72798E5FC00141808 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E4F02798E5FE00141808 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E4FA2798E5FE00141808 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,6 +655,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8A69E3EA27977B3C00141808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A69E3F527977B3C00141808 /* ViewController.swift in Sources */,
+				8A69E3F127977B3C00141808 /* AppDelegate.swift in Sources */,
+				8A69E3F327977B3C00141808 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E3FF27977B3E00141808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A69E40827977B3E00141808 /* Remote_Josiah_ModderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E40927977B3E00141808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A69E41227977B3E00141808 /* Remote_Josiah_ModderUITests.swift in Sources */,
+				8A69E41427977B3E00141808 /* Remote_Josiah_ModderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E4D92798E5FC00141808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A69E4E42798E5FC00141808 /* ViewController.swift in Sources */,
+				8A69E4E02798E5FC00141808 /* AppDelegate.swift in Sources */,
+				8A69E4E22798E5FC00141808 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E4EE2798E5FE00141808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A69E4F72798E5FE00141808 /* OptiModTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A69E4F82798E5FE00141808 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A69E5012798E5FE00141808 /* OptiModUITests.swift in Sources */,
+				8A69E5032798E5FE00141808 /* OptiModUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -294,6 +722,26 @@
 			target = 8A69E3B22795F25900141808 /* Josiah Modding Tools */;
 			targetProxy = 8A69E3CF2795F25B00141808 /* PBXContainerItemProxy */;
 		};
+		8A69E40527977B3E00141808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A69E3ED27977B3C00141808 /* Remote Josiah Modder */;
+			targetProxy = 8A69E40427977B3E00141808 /* PBXContainerItemProxy */;
+		};
+		8A69E40F27977B3E00141808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A69E3ED27977B3C00141808 /* Remote Josiah Modder */;
+			targetProxy = 8A69E40E27977B3E00141808 /* PBXContainerItemProxy */;
+		};
+		8A69E4F42798E5FE00141808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A69E4DC2798E5FC00141808 /* OptiMod */;
+			targetProxy = 8A69E4F32798E5FE00141808 /* PBXContainerItemProxy */;
+		};
+		8A69E4FE2798E5FE00141808 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A69E4DC2798E5FC00141808 /* OptiMod */;
+			targetProxy = 8A69E4FD2798E5FE00141808 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -303,6 +751,38 @@
 				8A69E3BD2795F25B00141808 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A69E3F627977B3C00141808 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A69E3F727977B3C00141808 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A69E3FB27977B3E00141808 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A69E3FC27977B3E00141808 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8A69E4E52798E5FC00141808 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A69E4E62798E5FC00141808 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A69E4EA2798E5FE00141808 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A69E4EB2798E5FE00141808 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -434,6 +914,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -461,6 +942,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -545,6 +1027,314 @@
 			};
 			name = Release;
 		};
+		8A69E41527977B3E00141808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Remote Josiah Modder/Remote Josiah Modder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Remote Josiah Modder/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = JosiahMod;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiah.Remote-Josiah-Modder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+			};
+			name = Debug;
+		};
+		8A69E41627977B3E00141808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Remote Josiah Modder/Remote Josiah Modder.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Remote Josiah Modder/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = JosiahMod;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiah.Remote-Josiah-Modder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,6";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A69E41727977B3E00141808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiah.Remote-Josiah-ModderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remote Josiah Modder.app/Remote Josiah Modder";
+			};
+			name = Debug;
+		};
+		8A69E41827977B3E00141808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiah.Remote-Josiah-ModderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Remote Josiah Modder.app/Remote Josiah Modder";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A69E41927977B3E00141808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiah.Remote-Josiah-ModderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Remote Josiah Modder";
+			};
+			name = Debug;
+		};
+		8A69E41A27977B3E00141808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiah.Remote-Josiah-ModderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Remote Josiah Modder";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A69E5052798E5FE00141808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OptiMod/OptiMod.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OptiMod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.OptiMod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A69E5062798E5FE00141808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OptiMod/OptiMod.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OptiMod/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.OptiMod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A69E5082798E5FE00141808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.OptiModTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptiMod.app/OptiMod";
+			};
+			name = Debug;
+		};
+		8A69E5092798E5FE00141808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.OptiModTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OptiMod.app/OptiMod";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A69E50B2798E5FE00141808 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.OptiModUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OptiMod;
+			};
+			name = Debug;
+		};
+		8A69E50C2798E5FE00141808 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josiah.OptiModUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OptiMod;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -580,6 +1370,60 @@
 			buildConfigurations = (
 				8A69E3DF2795F25C00141808 /* Debug */,
 				8A69E3E02795F25C00141808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A69E41B27977B3E00141808 /* Build configuration list for PBXNativeTarget "Remote Josiah Modder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A69E41527977B3E00141808 /* Debug */,
+				8A69E41627977B3E00141808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A69E41C27977B3E00141808 /* Build configuration list for PBXNativeTarget "Remote Josiah ModderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A69E41727977B3E00141808 /* Debug */,
+				8A69E41827977B3E00141808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A69E41D27977B3E00141808 /* Build configuration list for PBXNativeTarget "Remote Josiah ModderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A69E41927977B3E00141808 /* Debug */,
+				8A69E41A27977B3E00141808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A69E5042798E5FE00141808 /* Build configuration list for PBXNativeTarget "OptiMod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A69E5052798E5FE00141808 /* Debug */,
+				8A69E5062798E5FE00141808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A69E5072798E5FE00141808 /* Build configuration list for PBXNativeTarget "OptiModTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A69E5082798E5FE00141808 /* Debug */,
+				8A69E5092798E5FE00141808 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A69E50A2798E5FE00141808 /* Build configuration list for PBXNativeTarget "OptiModUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A69E50B2798E5FE00141808 /* Debug */,
+				8A69E50C2798E5FE00141808 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

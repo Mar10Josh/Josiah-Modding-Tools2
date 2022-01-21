@@ -7,14 +7,34 @@
 
 import Foundation
 import Cocoa
+extension NSImage.Name {
+    static let changed = NSImage.Name("JSHChange")
+}
+
 
 class StartModdingViewController: NSViewController {
+    
+    
+    @IBAction func Change(_ sender: NSButton) {
+
+        if sender.image == NSImage.init(named: .changed) {
+            ApplicationStuff.PrevPath = ApplicationStuff.Paths
+            print(ApplicationStuff.PrevPath)
+        }
+        if sender.title == "Get Code (Remote)" {
+            let alphabetstring = "abcdefghijklmnopqrstuvwxyz"
+            let alphabetarray = alphabetstring.content(seperatedBy: "")
+        }
+    }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         print(ApplicationStuff.Paths)
+        self.title = "Modding " + ApplicationStuff.Paths + " - JMT"
     }
 
     override var representedObject: Any? {

@@ -685,7 +685,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Select - JMT" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -772,6 +772,33 @@
                     <view key="view" id="V3A-HI-kw0">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AhV-yT-kQP">
+                                <rect key="frame" x="-7" y="273" width="48" height="32"/>
+                                <buttonCell key="cell" type="push" bezelStyle="rounded" image="JSHChange" imagePosition="right" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Zdk-ME-AAi">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <color key="bezelColor" red="1" green="0.036709969362763384" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="Change:" target="XNS-j6-s6c" id="dyN-8F-BDC"/>
+                                    <segue destination="XfG-lQ-9wD" kind="show" id="XQr-bm-0jf"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r4C-Ti-P3a">
+                                <rect key="frame" x="258" y="-7" width="199" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Get Code (Remote)" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="0Jy-p0-ALk">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="AhV-yT-kQP" secondAttribute="trailing" constant="20" symbolic="YES" id="3SE-Vk-SBs"/>
+                            <constraint firstItem="AhV-yT-kQP" firstAttribute="top" secondItem="V3A-HI-kw0" secondAttribute="top" id="lR7-pp-e8B"/>
+                            <constraint firstItem="AhV-yT-kQP" firstAttribute="leading" secondItem="V3A-HI-kw0" secondAttribute="leading" id="ypc-08-WJL"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="VsD-SZ-uMc" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -779,7 +806,12 @@
             <point key="canvasLocation" x="615" y="655"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Iz6-qO-iQB"/>
+        <segue reference="XQr-bm-0jf"/>
+    </inferredMetricsTieBreakers>
     <resources>
+        <image name="JSHChange" width="256" height="256"/>
         <image name="NSFolder" width="32" height="32"/>
         <image name="NSGoRightTemplate" width="10" height="14"/>
         <image name="NSMenuOnStateTemplate" width="14" height="13"/>

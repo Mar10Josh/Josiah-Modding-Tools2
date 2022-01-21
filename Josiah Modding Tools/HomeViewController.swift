@@ -18,7 +18,11 @@ class HomeViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        if ApplicationStuff.PrevPath == "" {
+            self.title = "Select Folder - JMT"
+        } else {
+            self.title = "Select Folder with section change by mod window " + ApplicationStuff.PrevPath + " - JMT"
+        }
         // Do any additional setup after loading the view.
     }
 
