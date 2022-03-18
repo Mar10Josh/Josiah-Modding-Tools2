@@ -39,6 +39,7 @@
 			remoteInfo = HaxeKey;
 		};
 <<<<<<< HEAD
+<<<<<<< HEAD
 		8A69E3C52795F25B00141808 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
@@ -89,6 +90,8 @@
 		};
 /* End PBXCopyFilesBuildPhase section */
 =======
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 /* End PBXContainerItemProxy section */
 >>>>>>> parent of 4a9dd0c (Got more of em)
 
@@ -130,6 +133,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		8A5049F827CDD8BE00C05E92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -180,6 +184,8 @@
 			sourceTree = "<group>";
 		};
 =======
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -192,6 +198,7 @@
 				8A69E3D12795F25B00141808 /* Josiah Modding ToolsUITests */,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				8A69E3EF27977B3C00141808 /* Remote Josiah Modder */,
 				8A69E40627977B3E00141808 /* Remote Josiah ModderTests */,
 				8A69E41027977B3E00141808 /* Remote Josiah ModderUITests */,
@@ -200,6 +207,8 @@
 				8A69E4FF2798E5FE00141808 /* OptiModUITests */,
 				8A41EA6527CAB91800F6491C /* jmt */,
 				8A5049FC27CDD8BE00C05E92 /* HaxeKey */,
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
@@ -216,6 +225,7 @@
 				8A69E3CE2795F25B00141808 /* Josiah Modding ToolsUITests.xctest */,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				8A69E3EE27977B3C00141808 /* Remote Josiah Modder.app */,
 				8A69E40327977B3E00141808 /* Remote Josiah ModderTests.xctest */,
 				8A69E40D27977B3E00141808 /* Remote Josiah ModderUITests.xctest */,
@@ -225,6 +235,8 @@
 				8A41EA6427CAB91800F6491C /* jmt */,
 				8A5048CA27CAF69300C05E92 /* Mod File.action */,
 				8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */,
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
@@ -268,6 +280,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 		8A41EA6327CAB91800F6491C /* jmt */ = {
 			isa = PBXNativeTarget;
@@ -321,6 +334,8 @@
 			productReference = 8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 		8A69E3B22795F25900141808 /* Josiah Modding Tools */ = {
@@ -378,6 +393,7 @@
 			productReference = 8A69E3CE2795F25B00141808 /* Josiah Modding ToolsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		8A69E3ED27977B3C00141808 /* Remote Josiah Modder */ = {
@@ -492,6 +508,8 @@
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -502,6 +520,7 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+<<<<<<< HEAD
 					8A41EA6327CAB91800F6491C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -512,6 +531,8 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 					8A69E3B22795F25900141808 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -523,6 +544,9 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 8A69E3B22795F25900141808;
 					};
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 				};
@@ -545,6 +569,7 @@
 				8A69E3CD2795F25B00141808 /* Josiah Modding ToolsUITests */,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 				8A69E3ED27977B3C00141808 /* Remote Josiah Modder */,
 				8A69E40227977B3E00141808 /* Remote Josiah ModderTests */,
 				8A69E40C27977B3E00141808 /* Remote Josiah ModderUITests */,
@@ -554,6 +579,8 @@
 				8A41EA6327CAB91800F6491C /* jmt */,
 				8A5048C927CAF69300C05E92 /* Mod File */,
 				8A5049FA27CDD8BE00C05E92 /* HaxeKey */,
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
@@ -586,6 +613,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		8A69E3C22795F25B00141808 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -648,6 +676,8 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 =======
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -718,6 +748,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 		8A41EA6927CAB91800F6491C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -838,6 +869,8 @@
 			};
 			name = Release;
 		};
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 		8A69E3D62795F25C00141808 /* Debug */ = {
@@ -1083,6 +1116,7 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		8A69E41527977B3E00141808 /* Debug */ = {
@@ -1399,6 +1433,8 @@
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1430,6 +1466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		8A69E3AE2795F25900141808 /* Build configuration list for PBXProject "Josiah Modding Tools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1466,6 +1503,8 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 /* End XCConfigurationList section */

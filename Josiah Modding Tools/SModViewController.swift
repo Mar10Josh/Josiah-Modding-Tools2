@@ -12,6 +12,7 @@ class StartModdingViewController: NSViewController {
     
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     
     @IBAction func Change(_ sender: NSButton) {
         if sender.image == NSImage.init(named: .changed) {
@@ -27,6 +28,8 @@ class StartModdingViewController: NSViewController {
     }
     
     
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======

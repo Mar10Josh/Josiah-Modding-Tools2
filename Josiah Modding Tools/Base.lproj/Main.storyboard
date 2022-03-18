@@ -787,6 +787,7 @@
                         <autoresizingMask key="autoresizingMask"/>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <subviews>
                             <button verticalHuggingPriority="750" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AhV-yT-kQP">
                                 <rect key="frame" x="-7" y="273" width="143" height="32"/>
@@ -814,6 +815,8 @@
                             <constraint firstItem="AhV-yT-kQP" firstAttribute="top" secondItem="V3A-HI-kw0" secondAttribute="top" id="lR7-pp-e8B"/>
                             <constraint firstItem="AhV-yT-kQP" firstAttribute="leading" secondItem="V3A-HI-kw0" secondAttribute="leading" id="ypc-08-WJL"/>
                         </constraints>
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
