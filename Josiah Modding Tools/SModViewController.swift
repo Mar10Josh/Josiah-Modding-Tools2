@@ -16,17 +16,17 @@ class StartModdingViewController: NSViewController {
     
     
     @IBAction func Change(_ sender: NSButton) {
-
         if sender.image == NSImage.init(named: .changed) {
             ApplicationStuff.PrevPath = ApplicationStuff.Paths
             print(ApplicationStuff.PrevPath)
         }
         if sender.title == "Get Code (Remote)" {
             let alphabetstring = "abcdefghijklmnopqrstuvwxyz"
-            let alphabetarray = alphabetstring.content(seperatedBy: "")
+            let mylist = alphabetstring.components(separatedBy: "")
+//            i
+            print(mylist)
         }
     }
-    
     
     
     override func viewDidLoad() {

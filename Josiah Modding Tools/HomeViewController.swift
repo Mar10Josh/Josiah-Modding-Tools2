@@ -9,10 +9,13 @@ import Cocoa
 
 
 class HomeViewController: NSViewController {
-    @IBOutlet weak var PathAdd: NSTextFieldCell!
+    
+    
+    @IBOutlet weak var PathAddedParent: NSTextField!
+    @IBOutlet weak var PathAdded: NSTextFieldCell!
     @IBAction func NViewButtonP(_ sender: NSButton) {
         print("Button Done Clicking")
-        ApplicationStuff.Paths = self.PathAdd.title
+        ApplicationStuff.Paths = self.PathAdded.title
         self.performSegue(withIdentifier: "SegueSMOD", sender: self)
     }
     

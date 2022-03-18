@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A41EA6727CAB91800F6491C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A41EA6627CAB91800F6491C /* main.swift */; };
+		8A5049FE27CDD8BE00C05E92 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5049FD27CDD8BE00C05E92 /* KeyboardViewController.swift */; };
+		8A504A0227CDD8BE00C05E92 /* HaxeKey.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8A504A0827DD6CF700C05E92 /* OtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A504A0727DD6CF700C05E92 /* OtherViews.swift */; };
+		8A504A0C27DDC7D900C05E92 /* Josiah Modding Tools.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A69E3B32795F25900141808 /* Josiah Modding Tools.app */; };
 		8A69E3B72795F25A00141808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E3B62795F25A00141808 /* AppDelegate.swift */; };
 		8A69E3B92795F25A00141808 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E3B82795F25A00141808 /* HomeViewController.swift */; };
 		8A69E3BB2795F25B00141808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A69E3BA2795F25B00141808 /* Assets.xcassets */; };
@@ -37,6 +42,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8A41EA6D27CABCC300F6491C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A69E3B22795F25900141808;
+			remoteInfo = "Josiah Modding Tools";
+		};
+		8A504A0027CDD8BE00C05E92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A5049FA27CDD8BE00C05E92;
+			remoteInfo = HaxeKey;
+		};
 		8A69E3C52795F25B00141808 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
@@ -81,7 +100,48 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8A41EA5C27C9CF4D00F6491C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A504A0627CDD8BE00C05E92 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8A504A0227CDD8BE00C05E92 /* HaxeKey.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A504A0927DDC79800C05E92 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Desktop/Josiah Modding Tools/Mac/bin/release";
+			dstSubfolderSpec = 0;
+			files = (
+				8A504A0C27DDC7D900C05E92 /* Josiah Modding Tools.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8A41EA6427CAB91800F6491C /* jmt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jmt; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A41EA6627CAB91800F6491C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8A5048CA27CAF69300C05E92 /* Mod File.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mod File.action"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HaxeKey.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5049FD27CDD8BE00C05E92 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		8A5049FF27CDD8BE00C05E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A504A0727DD6CF700C05E92 /* OtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViews.swift; sourceTree = "<group>"; };
 		8A69E3B32795F25900141808 /* Josiah Modding Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Josiah Modding Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A69E3B62795F25A00141808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A69E3B82795F25A00141808 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +186,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A41EA6127CAB91800F6491C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5048C627CAF69300C05E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5049F827CDD8BE00C05E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A69E3B02795F25900141808 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -192,6 +273,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A41EA6527CAB91800F6491C /* jmt */ = {
+			isa = PBXGroup;
+			children = (
+				8A41EA6627CAB91800F6491C /* main.swift */,
+			);
+			path = jmt;
+			sourceTree = "<group>";
+		};
+		8A5049FC27CDD8BE00C05E92 /* HaxeKey */ = {
+			isa = PBXGroup;
+			children = (
+				8A5049FD27CDD8BE00C05E92 /* KeyboardViewController.swift */,
+				8A5049FF27CDD8BE00C05E92 /* Info.plist */,
+			);
+			path = HaxeKey;
+			sourceTree = "<group>";
+		};
 		8A69E3AA2795F25900141808 = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +302,8 @@
 				8A69E4DE2798E5FC00141808 /* OptiMod */,
 				8A69E4F52798E5FE00141808 /* OptiModTests */,
 				8A69E4FF2798E5FE00141808 /* OptiModUITests */,
+				8A41EA6527CAB91800F6491C /* jmt */,
+				8A5049FC27CDD8BE00C05E92 /* HaxeKey */,
 				8A69E3B42795F25900141808 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -220,6 +320,9 @@
 				8A69E4DD2798E5FC00141808 /* OptiMod.app */,
 				8A69E4F22798E5FE00141808 /* OptiModTests.xctest */,
 				8A69E4FC2798E5FE00141808 /* OptiModUITests.xctest */,
+				8A41EA6427CAB91800F6491C /* jmt */,
+				8A5048CA27CAF69300C05E92 /* Mod File.action */,
+				8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -234,6 +337,7 @@
 				8A69E3BF2795F25B00141808 /* Josiah_Modding_Tools.entitlements */,
 				8A69E3E12795FB1A00141808 /* SModViewController.swift */,
 				8A69E3E32796007600141808 /* Application.swift */,
+				8A504A0727DD6CF700C05E92 /* OtherViews.swift */,
 			);
 			path = "Josiah Modding Tools";
 			sourceTree = "<group>";
@@ -322,6 +426,58 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8A41EA6327CAB91800F6491C /* jmt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A41EA6827CAB91800F6491C /* Build configuration list for PBXNativeTarget "jmt" */;
+			buildPhases = (
+				8A41EA6027CAB91800F6491C /* Sources */,
+				8A41EA6127CAB91800F6491C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A41EA6E27CABCC300F6491C /* PBXTargetDependency */,
+			);
+			name = jmt;
+			productName = jmt;
+			productReference = 8A41EA6427CAB91800F6491C /* jmt */;
+			productType = "com.apple.product-type.tool";
+		};
+		8A5048C927CAF69300C05E92 /* Mod File */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A5048D627CAF69300C05E92 /* Build configuration list for PBXNativeTarget "Mod File" */;
+			buildPhases = (
+				8A5048C527CAF69300C05E92 /* Sources */,
+				8A5048C627CAF69300C05E92 /* Frameworks */,
+				8A5048C727CAF69300C05E92 /* Resources */,
+				8A5048C827CAF69300C05E92 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mod File";
+			productName = "Mod File";
+			productReference = 8A5048CA27CAF69300C05E92 /* Mod File.action */;
+			productType = "com.apple.product-type.bundle";
+		};
+		8A5049FA27CDD8BE00C05E92 /* HaxeKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A504A0327CDD8BE00C05E92 /* Build configuration list for PBXNativeTarget "HaxeKey" */;
+			buildPhases = (
+				8A5049F727CDD8BE00C05E92 /* Sources */,
+				8A5049F827CDD8BE00C05E92 /* Frameworks */,
+				8A5049F927CDD8BE00C05E92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HaxeKey;
+			productName = HaxeKey;
+			productReference = 8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		8A69E3B22795F25900141808 /* Josiah Modding Tools */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A69E3D82795F25C00141808 /* Build configuration list for PBXNativeTarget "Josiah Modding Tools" */;
@@ -329,6 +485,8 @@
 				8A69E3AF2795F25900141808 /* Sources */,
 				8A69E3B02795F25900141808 /* Frameworks */,
 				8A69E3B12795F25900141808 /* Resources */,
+				8A41EA5C27C9CF4D00F6491C /* Embed App Extensions */,
+				8A504A0927DDC79800C05E92 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -382,10 +540,12 @@
 				8A69E3EA27977B3C00141808 /* Sources */,
 				8A69E3EB27977B3C00141808 /* Frameworks */,
 				8A69E3EC27977B3C00141808 /* Resources */,
+				8A504A0627CDD8BE00C05E92 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8A504A0127CDD8BE00C05E92 /* PBXTargetDependency */,
 			);
 			name = "Remote Josiah Modder";
 			productName = "Remote Josiah Modder";
@@ -491,6 +651,15 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					8A41EA6327CAB91800F6491C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8A5048C927CAF69300C05E92 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					8A5049FA27CDD8BE00C05E92 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
 					8A69E3B22795F25900141808 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -548,11 +717,28 @@
 				8A69E4DC2798E5FC00141808 /* OptiMod */,
 				8A69E4F12798E5FE00141808 /* OptiModTests */,
 				8A69E4FB2798E5FE00141808 /* OptiModUITests */,
+				8A41EA6327CAB91800F6491C /* jmt */,
+				8A5048C927CAF69300C05E92 /* Mod File */,
+				8A5049FA27CDD8BE00C05E92 /* HaxeKey */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8A5048C727CAF69300C05E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5049F927CDD8BE00C05E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A69E3B12795F25900141808 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -626,13 +812,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A5048C827CAF69300C05E92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		8A41EA6027CAB91800F6491C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A41EA6727CAB91800F6491C /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5048C527CAF69300C05E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5049F727CDD8BE00C05E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A5049FE27CDD8BE00C05E92 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8A69E3AF2795F25900141808 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A69E3E42796007600141808 /* Application.swift in Sources */,
 				8A69E3E22795FB1A00141808 /* SModViewController.swift in Sources */,
+				8A504A0827DD6CF700C05E92 /* OtherViews.swift in Sources */,
 				8A69E3B92795F25A00141808 /* HomeViewController.swift in Sources */,
 				8A69E3B72795F25A00141808 /* AppDelegate.swift in Sources */,
 			);
@@ -712,6 +942,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8A41EA6E27CABCC300F6491C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A69E3B22795F25900141808 /* Josiah Modding Tools */;
+			targetProxy = 8A41EA6D27CABCC300F6491C /* PBXContainerItemProxy */;
+		};
+		8A504A0127CDD8BE00C05E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A5049FA27CDD8BE00C05E92 /* HaxeKey */;
+			targetProxy = 8A504A0027CDD8BE00C05E92 /* PBXContainerItemProxy */;
+		};
 		8A69E3C62795F25B00141808 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8A69E3B22795F25900141808 /* Josiah Modding Tools */;
@@ -788,6 +1028,125 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8A41EA6927CAB91800F6491C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8A41EA6A27CAB91800F6491C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8A5048D727CAF69300C05E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mod File/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = Mod_File;
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				MARKETING_VERSION = 1.0;
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiah.Mod-File";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = action;
+			};
+			name = Debug;
+		};
+		8A5048D827CAF69300C05E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mod File/Info.plist";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = Mod_File;
+				INSTALL_PATH = "$(HOME)/Library/Automator";
+				MARKETING_VERSION = 1.0;
+				OTHER_OSAFLAGS = "-x -t 0 -c 0";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiah.Mod-File";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				WRAPPER_EXTENSION = action;
+			};
+			name = Release;
+		};
+		8A504A0427CDD8BE00C05E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaxeKey/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HaxeKey;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiah.Remote-Josiah-Modder.HaxeKey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A504A0527CDD8BE00C05E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HaxeKey/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HaxeKey;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josiah.Remote-Josiah-Modder.HaxeKey";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		8A69E3D62795F25C00141808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -906,13 +1265,16 @@
 		8A69E3D92795F25C00141808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "Josiah Modding Tools/Josiah_Modding_Tools.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -934,13 +1296,16 @@
 		8A69E3DA2795F25C00141808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "Josiah Modding Tools/Josiah_Modding_Tools.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PY7A948CXQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -1030,6 +1395,7 @@
 		8A69E41527977B3E00141808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Remote Josiah Modder/Remote Josiah Modder.entitlements";
@@ -1066,6 +1432,7 @@
 		8A69E41627977B3E00141808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Remote Josiah Modder/Remote Josiah Modder.entitlements";
@@ -1338,6 +1705,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8A41EA6827CAB91800F6491C /* Build configuration list for PBXNativeTarget "jmt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A41EA6927CAB91800F6491C /* Debug */,
+				8A41EA6A27CAB91800F6491C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5048D627CAF69300C05E92 /* Build configuration list for PBXNativeTarget "Mod File" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A5048D727CAF69300C05E92 /* Debug */,
+				8A5048D827CAF69300C05E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A504A0327CDD8BE00C05E92 /* Build configuration list for PBXNativeTarget "HaxeKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A504A0427CDD8BE00C05E92 /* Debug */,
+				8A504A0527CDD8BE00C05E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8A69E3AE2795F25900141808 /* Build configuration list for PBXProject "Josiah Modding Tools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

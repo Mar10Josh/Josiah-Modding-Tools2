@@ -756,14 +756,27 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="PathAdd" destination="rIe-4j-VfO" id="f0H-Hq-Abh"/>
-                        <outlet property="PathAdded" destination="eQn-6D-wq2" id="4hd-hr-p4D"/>
+                        <outlet property="PathAdded" destination="rIe-4j-VfO" id="mGW-FH-0n0"/>
+                        <outlet property="PathAddedParent" destination="eQn-6D-wq2" id="3rf-Gr-UmE"/>
                         <segue destination="XNS-j6-s6c" kind="show" identifier="SegueSMOD" id="Iz6-qO-iQB"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="75" y="655"/>
+        </scene>
+        <!--You've got code! - JMT-->
+        <scene sceneID="RFU-WA-9Bj">
+            <objects>
+                <viewController title="You've got code! - JMT" id="QTY-g1-4wt" customClass="GetCodeViewC" customModule="Josiah_Modding_Tools" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="2ua-Fe-RCE">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </view>
+                </viewController>
+                <customObject id="iit-cf-b9I" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="753" y="294"/>
         </scene>
         <!--Start Modding View Controller-->
         <scene sceneID="2QC-ij-NKf">
@@ -774,8 +787,8 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" imageHugsTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AhV-yT-kQP">
-                                <rect key="frame" x="-7" y="273" width="48" height="32"/>
-                                <buttonCell key="cell" type="push" bezelStyle="rounded" image="JSHChange" imagePosition="right" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Zdk-ME-AAi">
+                                <rect key="frame" x="-7" y="273" width="143" height="32"/>
+                                <buttonCell key="cell" type="push" title="Change Folder" bezelStyle="rounded" image="JSHChange" imagePosition="right" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Zdk-ME-AAi">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
