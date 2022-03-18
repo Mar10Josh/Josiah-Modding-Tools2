@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A41EA6727CAB91800F6491C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A41EA6627CAB91800F6491C /* main.swift */; };
-		8A5049FE27CDD8BE00C05E92 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5049FD27CDD8BE00C05E92 /* KeyboardViewController.swift */; };
-		8A504A0227CDD8BE00C05E92 /* HaxeKey.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		8A504A0827DD6CF700C05E92 /* OtherViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A504A0727DD6CF700C05E92 /* OtherViews.swift */; };
-		8A504A0C27DDC7D900C05E92 /* Josiah Modding Tools.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8A69E3B32795F25900141808 /* Josiah Modding Tools.app */; };
 		8A69E3B72795F25A00141808 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E3B62795F25A00141808 /* AppDelegate.swift */; };
 		8A69E3B92795F25A00141808 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A69E3B82795F25A00141808 /* HomeViewController.swift */; };
 		8A69E3BB2795F25B00141808 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A69E3BA2795F25B00141808 /* Assets.xcassets */; };
@@ -24,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+<<<<<<< HEAD
 		8A41EA6D27CABCC300F6491C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
@@ -40,6 +36,8 @@
 		};
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 		8A69E3C52795F25B00141808 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
@@ -56,6 +54,7 @@
 		};
 /* End PBXContainerItemProxy section */
 
+<<<<<<< HEAD
 /* Begin PBXCopyFilesBuildPhase section */
 		8A41EA5C27C9CF4D00F6491C /* Embed App Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -95,14 +94,9 @@
 /* End PBXContainerItemProxy section */
 >>>>>>> parent of 4a9dd0c (Got more of em)
 
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 /* Begin PBXFileReference section */
-		8A41EA6427CAB91800F6491C /* jmt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jmt; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A41EA6627CAB91800F6491C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		8A5048CA27CAF69300C05E92 /* Mod File.action */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mod File.action"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HaxeKey.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A5049FD27CDD8BE00C05E92 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
-		8A5049FF27CDD8BE00C05E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A504A0727DD6CF700C05E92 /* OtherViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViews.swift; sourceTree = "<group>"; };
 		8A69E3B32795F25900141808 /* Josiah Modding Tools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Josiah Modding Tools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A69E3B62795F25A00141808 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A69E3B82795F25A00141808 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +113,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+<<<<<<< HEAD
 		8A41EA6127CAB91800F6491C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +137,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 		8A69E3B02795F25900141808 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -166,6 +163,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		8A41EA6527CAB91800F6491C /* jmt */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +188,8 @@
 
 /* Begin PBXGroup section */
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 		8A69E3AA2795F25900141808 = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +205,7 @@
 				8A69E4DE2798E5FC00141808 /* OptiMod */,
 				8A69E4F52798E5FE00141808 /* OptiModTests */,
 				8A69E4FF2798E5FE00141808 /* OptiModUITests */,
+<<<<<<< HEAD
 				8A41EA6527CAB91800F6491C /* jmt */,
 				8A5049FC27CDD8BE00C05E92 /* HaxeKey */,
 =======
@@ -213,6 +214,8 @@
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 				8A69E3B42795F25900141808 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				8A69E4DD2798E5FC00141808 /* OptiMod.app */,
 				8A69E4F22798E5FE00141808 /* OptiModTests.xctest */,
 				8A69E4FC2798E5FE00141808 /* OptiModUITests.xctest */,
+<<<<<<< HEAD
 				8A41EA6427CAB91800F6491C /* jmt */,
 				8A5048CA27CAF69300C05E92 /* Mod File.action */,
 				8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */,
@@ -241,6 +245,8 @@
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -255,7 +261,6 @@
 				8A69E3BF2795F25B00141808 /* Josiah_Modding_Tools.entitlements */,
 				8A69E3E12795FB1A00141808 /* SModViewController.swift */,
 				8A69E3E32796007600141808 /* Application.swift */,
-				8A504A0727DD6CF700C05E92 /* OtherViews.swift */,
 			);
 			path = "Josiah Modding Tools";
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		8A41EA6327CAB91800F6491C /* jmt */ = {
@@ -338,6 +344,8 @@
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 		8A69E3B22795F25900141808 /* Josiah Modding Tools */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A69E3D82795F25C00141808 /* Build configuration list for PBXNativeTarget "Josiah Modding Tools" */;
@@ -345,8 +353,6 @@
 				8A69E3AF2795F25900141808 /* Sources */,
 				8A69E3B02795F25900141808 /* Frameworks */,
 				8A69E3B12795F25900141808 /* Resources */,
-				8A41EA5C27C9CF4D00F6491C /* Embed App Extensions */,
-				8A504A0927DDC79800C05E92 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -403,12 +409,10 @@
 				8A69E3EA27977B3C00141808 /* Sources */,
 				8A69E3EB27977B3C00141808 /* Frameworks */,
 				8A69E3EC27977B3C00141808 /* Resources */,
-				8A504A0627CDD8BE00C05E92 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A504A0127CDD8BE00C05E92 /* PBXTargetDependency */,
 			);
 			name = "Remote Josiah Modder";
 			productName = "Remote Josiah Modder";
@@ -521,6 +525,7 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 <<<<<<< HEAD
+<<<<<<< HEAD
 					8A41EA6327CAB91800F6491C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -533,6 +538,8 @@
 <<<<<<< HEAD
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 					8A69E3B22795F25900141808 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -576,6 +583,7 @@
 				8A69E4DC2798E5FC00141808 /* OptiMod */,
 				8A69E4F12798E5FE00141808 /* OptiModTests */,
 				8A69E4FB2798E5FE00141808 /* OptiModUITests */,
+<<<<<<< HEAD
 				8A41EA6327CAB91800F6491C /* jmt */,
 				8A5048C927CAF69300C05E92 /* Mod File */,
 				8A5049FA27CDD8BE00C05E92 /* HaxeKey */,
@@ -585,25 +593,13 @@
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8A5048C727CAF69300C05E92 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A5049F927CDD8BE00C05E92 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8A69E3B12795F25900141808 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -631,27 +627,8 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		8A5048C827CAF69300C05E92 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "amlint \"${BUILT_PRODUCTS_DIR}/${FULL_PRODUCT_NAME}\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< HEAD
 		8A41EA6027CAB91800F6491C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -682,13 +659,14 @@
 
 /* Begin PBXSourcesBuildPhase section */
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 		8A69E3AF2795F25900141808 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8A69E3E42796007600141808 /* Application.swift in Sources */,
 				8A69E3E22795FB1A00141808 /* SModViewController.swift in Sources */,
-				8A504A0827DD6CF700C05E92 /* OtherViews.swift in Sources */,
 				8A69E3B92795F25A00141808 /* HomeViewController.swift in Sources */,
 				8A69E3B72795F25A00141808 /* AppDelegate.swift in Sources */,
 			);
@@ -714,16 +692,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A41EA6E27CABCC300F6491C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A69E3B22795F25900141808 /* Josiah Modding Tools */;
-			targetProxy = 8A41EA6D27CABCC300F6491C /* PBXContainerItemProxy */;
-		};
-		8A504A0127CDD8BE00C05E92 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A5049FA27CDD8BE00C05E92 /* HaxeKey */;
-			targetProxy = 8A504A0027CDD8BE00C05E92 /* PBXContainerItemProxy */;
-		};
 		8A69E3C62795F25B00141808 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8A69E3B22795F25900141808 /* Josiah Modding Tools */;
@@ -748,6 +716,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		8A41EA6927CAB91800F6491C /* Debug */ = {
@@ -873,6 +842,8 @@
 >>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 		8A69E3D62795F25C00141808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -991,16 +962,13 @@
 		8A69E3D92795F25C00141808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "Josiah Modding Tools/Josiah_Modding_Tools.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PY7A948CXQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -1021,16 +989,13 @@
 		8A69E3DA2795F25C00141808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "Josiah Modding Tools/Josiah_Modding_Tools.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PY7A948CXQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
@@ -1122,7 +1087,6 @@
 		8A69E41527977B3E00141808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Remote Josiah Modder/Remote Josiah Modder.entitlements";
@@ -1159,7 +1123,6 @@
 		8A69E41627977B3E00141808 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Remote Josiah Modder/Remote Josiah Modder.entitlements";
@@ -1438,6 +1401,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< HEAD
 		8A41EA6827CAB91800F6491C /* Build configuration list for PBXNativeTarget "jmt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1467,6 +1431,8 @@
 			defaultConfigurationName = Release;
 		};
 <<<<<<< HEAD
+=======
+>>>>>>> parent of 05908b4 (fdjkgdh)
 		8A69E3AE2795F25900141808 /* Build configuration list for PBXProject "Josiah Modding Tools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
