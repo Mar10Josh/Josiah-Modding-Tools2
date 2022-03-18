@@ -9,6 +9,7 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+<<<<<<< HEAD
 		<key>Josiah Modding Tools.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -39,6 +40,8 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 	</dict>
 </dict>
 </plist>

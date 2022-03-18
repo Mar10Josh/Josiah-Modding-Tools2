@@ -10,5 +10,4 @@ import Cocoa
 
 struct ApplicationStuff {
     static var Paths: String = ""
-    static var PrevPath: String = ""
 }
