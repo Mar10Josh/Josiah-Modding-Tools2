@@ -38,6 +38,7 @@
 			remoteGlobalIDString = 8A5049FA27CDD8BE00C05E92;
 			remoteInfo = HaxeKey;
 		};
+<<<<<<< HEAD
 		8A69E3C52795F25B00141808 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A69E3AB2795F25900141808 /* Project object */;
@@ -87,6 +88,9 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
+=======
+/* End PBXContainerItemProxy section */
+>>>>>>> parent of 4a9dd0c (Got more of em)
 
 /* Begin PBXFileReference section */
 		8A41EA6427CAB91800F6491C /* jmt */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = jmt; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +130,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		8A5049F827CDD8BE00C05E92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,12 +179,18 @@
 			path = HaxeKey;
 			sourceTree = "<group>";
 		};
+=======
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+>>>>>>> parent of 4a9dd0c (Got more of em)
 		8A69E3AA2795F25900141808 = {
 			isa = PBXGroup;
 			children = (
 				8A69E3B52795F25A00141808 /* Josiah Modding Tools */,
 				8A69E3C72795F25B00141808 /* Josiah Modding ToolsTests */,
 				8A69E3D12795F25B00141808 /* Josiah Modding ToolsUITests */,
+<<<<<<< HEAD
 <<<<<<< HEAD
 				8A69E3EF27977B3C00141808 /* Remote Josiah Modder */,
 				8A69E40627977B3E00141808 /* Remote Josiah ModderTests */,
@@ -189,6 +200,8 @@
 				8A69E4FF2798E5FE00141808 /* OptiModUITests */,
 				8A41EA6527CAB91800F6491C /* jmt */,
 				8A5049FC27CDD8BE00C05E92 /* HaxeKey */,
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 				8A69E3B42795F25900141808 /* Products */,
@@ -202,6 +215,7 @@
 				8A69E3C42795F25B00141808 /* Josiah Modding ToolsTests.xctest */,
 				8A69E3CE2795F25B00141808 /* Josiah Modding ToolsUITests.xctest */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				8A69E3EE27977B3C00141808 /* Remote Josiah Modder.app */,
 				8A69E40327977B3E00141808 /* Remote Josiah ModderTests.xctest */,
 				8A69E40D27977B3E00141808 /* Remote Josiah ModderUITests.xctest */,
@@ -211,6 +225,8 @@
 				8A41EA6427CAB91800F6491C /* jmt */,
 				8A5048CA27CAF69300C05E92 /* Mod File.action */,
 				8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */,
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 			);
@@ -252,6 +268,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		8A41EA6327CAB91800F6491C /* jmt */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A41EA6827CAB91800F6491C /* Build configuration list for PBXNativeTarget "jmt" */;
@@ -304,6 +321,8 @@
 			productReference = 8A5049FB27CDD8BE00C05E92 /* HaxeKey.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 		8A69E3B22795F25900141808 /* Josiah Modding Tools */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8A69E3D82795F25C00141808 /* Build configuration list for PBXNativeTarget "Josiah Modding Tools" */;
@@ -359,6 +378,7 @@
 			productReference = 8A69E3CE2795F25B00141808 /* Josiah Modding ToolsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		8A69E3ED27977B3C00141808 /* Remote Josiah Modder */ = {
 			isa = PBXNativeTarget;
@@ -470,6 +490,8 @@
 		};
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -489,6 +511,7 @@
 					8A5049FA27CDD8BE00C05E92 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
+<<<<<<< HEAD
 					8A69E3B22795F25900141808 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -500,6 +523,8 @@
 						CreatedOnToolsVersion = 13.2.1;
 						TestTargetID = 8A69E3B22795F25900141808;
 					};
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 				};
 			};
 			buildConfigurationList = 8A69E3AE2795F25900141808 /* Build configuration list for PBXProject "Josiah Modding Tools" */;
@@ -519,6 +544,7 @@
 				8A69E3C32795F25B00141808 /* Josiah Modding ToolsTests */,
 				8A69E3CD2795F25B00141808 /* Josiah Modding ToolsUITests */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				8A69E3ED27977B3C00141808 /* Remote Josiah Modder */,
 				8A69E40227977B3E00141808 /* Remote Josiah ModderTests */,
 				8A69E40C27977B3E00141808 /* Remote Josiah ModderUITests */,
@@ -528,6 +554,8 @@
 				8A41EA6327CAB91800F6491C /* jmt */,
 				8A5048C927CAF69300C05E92 /* Mod File */,
 				8A5049FA27CDD8BE00C05E92 /* HaxeKey */,
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
 			);
@@ -558,6 +586,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		8A69E3C22795F25B00141808 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -618,6 +647,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+=======
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+>>>>>>> parent of 4a9dd0c (Got more of em)
 		8A69E3AF2795F25900141808 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -684,6 +718,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< HEAD
 		8A41EA6927CAB91800F6491C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -803,6 +838,8 @@
 			};
 			name = Release;
 		};
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 		8A69E3D62795F25C00141808 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1046,6 +1083,7 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 <<<<<<< HEAD
 		8A69E41527977B3E00141808 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1359,6 +1397,8 @@
 		};
 =======
 >>>>>>> parent of 4a9dd0c (Got more of em)
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1371,6 +1411,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		8A5048D627CAF69300C05E92 /* Build configuration list for PBXNativeTarget "Mod File" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1425,6 +1466,8 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+=======
+>>>>>>> parent of 4a9dd0c (Got more of em)
 /* End XCConfigurationList section */
 	};
 	rootObject = 8A69E3AB2795F25900141808 /* Project object */;
